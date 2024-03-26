@@ -32,7 +32,7 @@ def calculator():
             flag=True
         elif should_continue=="n":
             flag=False
-            system('cls')
+            system('cls') #clear the screen before doing new calculation
             calculator()
         else:
             flag=False
