@@ -31,13 +31,6 @@ def get_result():
             text_lable.config(text=str(round(first_number/second_number,2)))
 
 
-
-
-
-
-
-
-
 root=Tk()
 root.geometry('280x380')
 root.resizable(0,0)
@@ -47,9 +40,6 @@ root.title('Calculator')
 text_lable=Label(root,text='',background='black',fg='white')
 text_lable.grid(row=0,column=0,pady=(50,25),columnspan=5,sticky='w')
 text_lable.configure(font=('verdana',30,'bold'))
-
-
-
 
 btn_7=Button(root,text='7',width=5,height=2,command=lambda : get_digit(7))
 btn_7.grid(row=1,column=0)
@@ -114,11 +104,6 @@ btn_result.configure(font=('verdana',14))
 btn_devide=Button(root,text='/',width=5,height=2,command=lambda :get_operator('/'))
 btn_devide.grid(row=4,column=3)
 btn_devide.configure(font=('verdana',14))
-
-
-
-
-
 
 
 
